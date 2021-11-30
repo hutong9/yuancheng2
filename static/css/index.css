@@ -1,0 +1,110 @@
+.base-message {
+  display: none;
+}
+.swiper-container ul li a img {
+  width: 100%;
+}
+.huiyi-list {
+  padding-top: 0.5rem;
+}
+.huiyi-list ul li {
+  color: #fff;
+  margin: 0 0;
+  width: 33.33%;
+  height: 5.5rem;
+}
+.huiyi-list ul li:nth-child(3n) {
+  margin-right: 0;
+  border-right-width: 0px;
+}
+.huiyi-list ul li a {
+  color: #fff;
+  text-align: center;
+  /* 09版 */
+  -webkit-box-pack: center;
+  /* 12版 */
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  -o-justify-content: flex-start;
+  justify-content: flex-start;
+}
+.huiyi-list ul li i {
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  border-radius: 50%;
+  background: palevioletred;
+  width: 3.25rem;
+  height: 3.25rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /* 09版 */
+  -webkit-box-pack: center;
+  /* 12版 */
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  /* 09版 */
+  -webkit-box-align: center;
+  /* 12版 */
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+}
+.huiyi-list ul li img {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+.huiyi-list ul li:nth-child(9n+1) i {
+  background-color: #b4a5fe;
+}
+.huiyi-list ul li:nth-child(9n+2) i {
+  background-color: #ffb4a9;
+}
+.huiyi-list ul li:nth-child(9n+3) i {
+  background-color: #ffe46d;
+}
+.huiyi-list ul li:nth-child(9n+4) i {
+  background-color: #fdc78c;
+}
+.huiyi-list ul li:nth-child(9n+5) i {
+  background-color: #89c5fe;
+}
+.huiyi-list ul li:nth-child(9n+6) i {
+  background-color: #59d6fa;
+}
+.huiyi-list ul li:nth-child(9n+7) i {
+  background-color: #89ea8c;
+}
+.huiyi-list ul li:nth-child(9n+8) i {
+  background-color: #51e8b7;
+}
+.huiyi-list ul li:nth-child(9n+9) i {
+  background-color: #e2acfe;
+}
+.huiyi-list ul li .menu-title {
+  font-size: 0.625rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 0.3rem;
+}
+.huiyi-list ul li .menu-sub-title {
+  font-size: 0.55rem;
+  line-height: 0.55rem;
+  margin-top: -0.05rem;
+  width: 100%;
+  min-height: 0.85rem;
+  color: #606060;
+  display: none;
+}
+.huiyi-list ul li .menu-today {
+  font-size: 0.4rem;
+  margin-top: 0.625rem;
+}
